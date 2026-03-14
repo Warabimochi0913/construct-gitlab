@@ -1,0 +1,5 @@
+- name: Update apt
+  ansible.builtin.apt:
+    state: present
+    update_cache: true
+    cache_valid_time: 86400

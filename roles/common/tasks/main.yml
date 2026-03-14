@@ -1,0 +1,7 @@
+---
+- name: Install common packages
+  ansible.builtin.include_tasks:
+    package.yml
+- name: Set locale and timezone
+  ansible.builtin.include_tasks:
+    locale.yml

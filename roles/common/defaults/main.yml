@@ -1,0 +1,9 @@
+---
+common_packages:
+  - at
+  - cron
+  - curl
+  - git
+  - language-pack-en
+  - ufw
+  - vim
