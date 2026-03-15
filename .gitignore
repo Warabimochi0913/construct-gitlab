@@ -1,1 +1,8 @@
-hosts.ini
+*.retry
+*.log
+__pycache__/
+*.pyc
+.vault_pass
+secrets.yml
+.env
+host_vars/develop.yml
