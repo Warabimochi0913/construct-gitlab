@@ -11,8 +11,8 @@ Ansibleを用いてgitlabを自動で構築します。
   `target`: Ubuntu Serverをインストールし、SSH鍵認証でアクセスできるように設定。<br>
 3. **リポジトリのクローン**:<br>
   control nodeにリポジトリをクローンします。
-4.  **`inventory.yml` の設定**:<br>
-  `inventory.yml`を作成し、ansibleで接続が可能なことを確認します。
+4.  **`hosts.ini` の設定**:<br>
+  `hosts.ini`を作成し、ansibleで接続が可能なことを確認します。
 ## 環境構築の実行
 control nodeで以下のコマンドを実行します。
 1. **実行**:<br>
