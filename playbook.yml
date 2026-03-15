@@ -1,0 +1,12 @@
+---
+- name: Setup commons
+  hosts: develop
+  become: true
+
+  pre_tasks:
+    - name: Include common task
+      ansible.builtin.include_tasks: pre_tasks/common.yml
+  roles:
+    - role: common
+    - role: docker
+    - role: gitlab
