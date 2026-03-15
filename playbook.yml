@@ -8,3 +8,5 @@
       ansible.builtin.include_tasks: pre_tasks/common.yml
   roles:
     - role: common
+    - role: docker
+    - role: gitlab
