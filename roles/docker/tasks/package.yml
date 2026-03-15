@@ -1,3 +1,4 @@
+---
 - name: Install tools
   ansible.builtin.apt:
     name: "{{ docker_common_packages }}"
